@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 
 # Expone el puerto 80
-EXPOSE 80
+EXPOSE 8081
 
 # Usa el comando por defecto de Nginx para iniciar el servidor
 CMD ["nginx", "-g", "daemon off;"]
